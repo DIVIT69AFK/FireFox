@@ -1,0 +1,42 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  padding: 30px 25px;
+  border: 1px solid rgb(230, 230, 235);
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgb(230, 228, 240);
+}
+
+.feature-icon {
+  font-size: 40px;
+}
+
+.feature-title {
+  color: rgb(89, 42, 203);
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.feature-desc {
+  color: rgb(82, 82, 94);
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

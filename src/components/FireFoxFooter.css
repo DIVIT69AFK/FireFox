@@ -1,0 +1,53 @@
+.footer-box {
+    background-color: rgb(32, 18, 58);
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.footer-box h3 {
+    color: rgb(255, 160, 80);
+    margin-top: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    line-height: 1.9;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link:focus {
+    outline: 2px solid yellow;
+}
+
+.language-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.language-form select {
+    max-width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .footer-box {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 20px;
+    }
+}
