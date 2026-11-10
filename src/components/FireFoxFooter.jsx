@@ -25,7 +25,7 @@ function FireFoxFooter() {
             {groups.map(function (group) {
                 return (
                     <div key={group.title}>
-                        <h3>{group.title}</h3>
+                        <h3 className="heading">{group.title}</h3>
                         <ul className="footer-links">
                             {group.links.map(function (link) {
                                 return (
@@ -41,10 +41,10 @@ function FireFoxFooter() {
             <form className="language-form">
                 <label htmlFor="page-language-select">Language</label>
                 <select id="page-language-select" name="lang" defaultValue="en-US">
+                    <option value="en-US">English</option>
                     <option value="zh-TW">正體中文 (繁體)</option>
-                    <option value="Eng">English</option>
-                    <option value="divit">Nnnnnn</option>
-                    <option value="Tam">தமிழ்</option>
+                    <option value="divit">banana</option>
+                    <option value="ta-IN">தமிழ்</option>
                 </select>
             </form>
         </footer>
