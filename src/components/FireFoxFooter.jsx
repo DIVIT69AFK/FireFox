@@ -42,9 +42,9 @@ function FireFoxFooter() {
                 <label htmlFor="page-language-select">Language</label>
                 <select id="page-language-select" name="lang" defaultValue="en-US">
                     <option value="zh-TW">正體中文 (繁體)</option>
-                    <option value="Eng">English</option>
-                    <option value="divit">Nnnnnn</option>
-                    <option value="Tam">தமிழ்</option>
+                    <option value="Eng">GOOOOOOOOOOOOON</option>
+                    <option value="divit">GOOOON</option>
+                    <option value="Tam">GOOON</option>
                 </select>
             </form>
         </footer>
